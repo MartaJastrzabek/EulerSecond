@@ -1,6 +1,6 @@
-package pl.martajastrzabek.EulerSecond;
+package pl.martajastrzabek.eulersecond;
 
-import pl.martajastrzabek.EulerSecond.pl.martajastrzabek.EulerSecond.pl.martajastrzabek.EulerSecond.Service.EulerSecondService;
+import pl.martajastrzabek.eulersecond.service.EulerSecondService;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ public class Application {
     public static void main(String[] args) {
         EulerSecondService fibonacci = new EulerSecondService();
         try {
-            List<Integer> fibonacciNumbers = fibonacci.createFibonacciNumbers(4000000);
+            List<Integer> fibonacciNumbers = fibonacci.createFibonacciNumbers(89);
 
             System.out.println(fibonacciNumbers);
             System.out.println(fibonacci.countEvenSum(fibonacciNumbers));

@@ -1,4 +1,4 @@
-package pl.martajastrzabek.EulerSecond.pl.martajastrzabek.EulerSecond.pl.martajastrzabek.EulerSecond.Service;
+package pl.martajastrzabek.eulersecond.service;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
